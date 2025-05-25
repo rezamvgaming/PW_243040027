@@ -10,12 +10,6 @@ foreach ($hardware as $item) {
 }
 echo "</ol>";
 
-// Menambahkan 2 elemen baru ke dalam array
-array_push($hardware, "Card Reader", "Modem");
-
-// Mengurutkan array secara alfabetis (A-Z)
-sort($hardware);
-
 // Menampilkan daftar perangkat keras komputer setelah ditambahkan elemen baru
 echo "<h3>Macam-macam perangkat keras komputer baru</h3>";
 echo "<ol>";
