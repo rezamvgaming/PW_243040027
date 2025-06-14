@@ -1,7 +1,7 @@
 <?php
 // koneksi ke database
-$conn = mysqli_connect('localhost', 'root', '', 'pw_243040027');
-// query ke tabel mahasiswa
+
+// query ke tabel mahasiswa/>
 $result = mysqli_query($conn, "SELECT * FROM mahasiswa");
 
 //  ubah data ke dalam array
